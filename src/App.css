@@ -1,38 +1,99 @@
-.App {
+/* .App {
+  text-align: center;
+} */
+
+.class-wrapper{
+  width: 100vw - 20px;
+  margin: 40px;
+  padding: 5rem 2.5rem;
+  background-image: url(https://assets-global.website-files.com/628288c5cd3e8411b90a36a4/641dee4b2dec9ac8ad312224_hero-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 32px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.wrpper1 h1{
+  font-size: 5rem;
+  color: rgb(48, 7, 48);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrpper2 h2{
+  color: rgb(146, 137, 147);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrpper3 h3{
+  color: rgb(150, 140, 149);
+  padding: 5px;
+}
+
+.wrpper4{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.wrpper4 img{
+  width: 130px;
+  height: 70px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.Wrapper{
+  background-image: url(https://assets-global.website-files.com/628288c5cd3e8411b90a36a4/641dee4b2dec9ac8ad312224_hero-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 32px;
+  width: 100vw - 20px;
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+ 
 }
+.video-box{
+  background-image: url(https://assets-global.website-files.com/628288c5cd3e8411b90a36a4/641dee4b2dec9ac8ad312224_hero-img.jpg);
+  width: 30rem;
+  margin: 50px;
+  text-align: center;
+ 
+}
+
+.box1{
+  margin: -40px 15px 15px 15px;
+}
+
+
+
+.block1{
+  background-image: url(https://assets-global.website-files.com/628288c5cd3e8411b90a36a4/641dee4b2dec9ac8ad312224_hero-img.jpg);
+  margin: 50px;
+  width: 25rem;
+}
+
+.block1 h2{
+  color: gray;
+}
+
+.block2{
+  background-image: url(https://assets-global.website-files.com/628288c5cd3e8411b90a36a4/641dee4b2dec9ac8ad312224_hero-img.jpg);
+  margin: 50px;
+  width: 25rem;
+}
+
+.block2 h2{
+  color: gray;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(52, 11, 90);
+}
+
+a:hover{
+  color: rgb(21, 182, 182);
+}
+
+
+
