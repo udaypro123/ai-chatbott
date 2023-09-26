@@ -1,0 +1,36 @@
+body { 
+    background-color: rgb(84, 196, 196);
+}
+
+
+#wrapper {
+    width: 100%;    
+    max-width: 980px;
+    margin: auto;
+} 
+
+ 
+
+#footer {
+    background-color: rgb(216, 243, 243);
+    width: 100%;
+} 
+
+.footerFloat {
+    width: 20%;
+    float: left;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #0E2431;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 4px;
+    transition: all 0.3s ease;
+}
+.nav-links li a:hover{
+   color: #28ecf3;
+ 
+
+ }
